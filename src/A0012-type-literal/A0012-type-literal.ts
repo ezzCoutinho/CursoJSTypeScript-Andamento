@@ -18,7 +18,7 @@ const person = {
   age: 30,
 };
 
-person.name = 'Matheus';
+person.name = 'Matheus'; // irá alterar, mas o TS dará como error.
 person.lastname = 'Lopes';
 person.age = 24;
 // console.log(person);
