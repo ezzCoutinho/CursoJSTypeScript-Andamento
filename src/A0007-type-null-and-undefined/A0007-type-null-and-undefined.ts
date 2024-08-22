@@ -23,12 +23,11 @@ export function squareOf(x: any) {
   return null;
 }
 
-const squareOfTwoNumber = squareOf(5);
-const squareOfTwoString = squareOf('2');
+const squareOfTwoNumber = squareOf(4);
 
 // null é um valor primitivo que representa a ausência intencional de qualquer
 // objeto ou valor.
-if (squareOfTwoString === null) {
+if (squareOfTwoNumber === null) {
   console.log(`Conta inválida`);
 } else {
   console.log(squareOfTwoNumber * 100);
