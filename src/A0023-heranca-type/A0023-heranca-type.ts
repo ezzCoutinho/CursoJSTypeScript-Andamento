@@ -1,3 +1,5 @@
+// extends/extensão dê: -> se dá de uma superClass para subClasses, podendo ter
+// poliformismo
 export class Pessoa {
   constructor(
     public readonly nome: string,

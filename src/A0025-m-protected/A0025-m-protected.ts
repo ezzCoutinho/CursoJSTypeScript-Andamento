@@ -1,3 +1,4 @@
+// Modificador protected -> atributos são acessíveis em class e subclasses
 export class Empresa {
   // maneira "rápida" atalho.
   constructor(

@@ -1,3 +1,6 @@
+// structural -> permite que tipos sejam intercambiáveis
+// se suas propriedade e métodos se coincidirem, indepedentemente
+// de uma relação explicita entre eles.
 type VerifyUserFn = (user: User, sentValue: User) => boolean;
 type User = { username: string; password: string };
 

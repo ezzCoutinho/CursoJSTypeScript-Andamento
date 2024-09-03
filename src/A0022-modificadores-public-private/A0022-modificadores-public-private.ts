@@ -1,3 +1,6 @@
+// public -> Por padrão toda class, atributo, método são publicos.
+// e podem ser acessados: na class, na sub clase e no escopo global.
+// private -> Apenas acessada na class.
 export class Empresa {
   // maneira "rápida" atalho.
   constructor(

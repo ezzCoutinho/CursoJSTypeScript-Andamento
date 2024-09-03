@@ -1,3 +1,7 @@
+// Métodos static -> não precisam de instanciamento
+// não trabalham com this.
+// Atributos static -> podem ser valores padrão e são chamados
+// por anotação de texto.
 export class Pessoa {
   static idadePadrao = 0;
   static cpfPadrao = '000.000.000-00';

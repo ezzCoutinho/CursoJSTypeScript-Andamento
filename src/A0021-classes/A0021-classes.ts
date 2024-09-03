@@ -1,3 +1,5 @@
+// clas -> Retorna métodos e atributos, podendo ter herança e poliformismo,
+// ela pode ser passada como tipo, para um método ou uma class
 export class Empresa {
   // maneira longa.
   public readonly nome: string;

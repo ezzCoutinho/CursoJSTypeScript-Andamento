@@ -1,3 +1,4 @@
+// enum -> Define uma forma de conjuntos em constantes.
 enum Cores {
   Vermelho = 10, //0 por padrão.
   Azul = 100, //1

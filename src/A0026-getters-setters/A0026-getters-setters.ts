@@ -1,3 +1,5 @@
+// Getter/Get -> são a parte visualizadora.
+// Setter/Set -> é a parte modificadora.
 export class Pessoa {
   constructor(
     private nome: string,

@@ -1,3 +1,5 @@
+// super -> herança de superClasses para subClasses, podendo atribuir
+// valores a ela e criar novos valores em atributos/parâmetros.
 export class Pessoa {
   constructor(
     public readonly nome: string,
