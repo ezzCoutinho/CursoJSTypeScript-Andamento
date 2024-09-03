@@ -1,5 +1,3 @@
-import { log } from 'console';
-
 export class Pessoa {
   constructor(
     private nome: string,
