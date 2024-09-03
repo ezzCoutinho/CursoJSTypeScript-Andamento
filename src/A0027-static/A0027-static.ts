@@ -12,6 +12,7 @@ export class Pessoa {
     console.log(Pessoa.idadePadrao, Pessoa.cpfPadrao);
   }
 
+  //Factory Method
   static criaPessoa(nome: string, sobrenome: string): Pessoa {
     return new Pessoa(
       nome,
