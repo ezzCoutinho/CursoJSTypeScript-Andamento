@@ -2,6 +2,7 @@
 // porém uma não é depedente da outra
 // Dependency Inversion -> Quando usamos uma class abstract como contrato,
 // e não uma class concreta. Pois class abstract não se modificam muito.
+// ligação fraca.
 export class Escritor {
   constructor(
     private _nome: string,

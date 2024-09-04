@@ -1,3 +1,6 @@
+// Composição -> Onde uma class é "criada", dentro de outra class
+// ocorrendo um instânciamento da class interior dentro da exterior.
+// ligação forte
 export class Carro {
   constructor(private readonly motor: Motor = new Motor()) {}
   ligar(): void {

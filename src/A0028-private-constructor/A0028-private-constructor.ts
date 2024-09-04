@@ -1,7 +1,7 @@
 // Singleton - GoF | Factory Method -GoF
 // Singleton -> deixa o constructor privado
 // não se pode ter mais de uma instância na classe.
-// Factory Method -> usa métodos static com instancias...
+// Factory Method -> métodos static trabalham com instancias...
 export class DataBase {
   private static database: DataBase;
 

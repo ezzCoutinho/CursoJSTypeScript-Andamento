@@ -1,3 +1,5 @@
+// Agregação -> uma class é dependente de outra class para funcionar
+// ligação media.
 export class CarrinhoDeCompras {
   constructor(private readonly produtos: Produto[] = []) {}
 
