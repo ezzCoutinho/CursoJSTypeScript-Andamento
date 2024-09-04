@@ -2,6 +2,8 @@
 // abstract em métodos -> não podem conter corpo, apenas inferir.
 // abstract em atributos -> não podem conter corpo, apenas inferir.
 // abstract em métodos e atributos passam a ser obrigatórios em subclasses.
+// abstract -> posso mudar os modificadores das subclass, para abrir(procted,
+// private), mas não fechar
 export abstract class Personagem {
   protected abstract emoji: string;
   constructor(
