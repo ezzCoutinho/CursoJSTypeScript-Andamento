@@ -1,5 +1,5 @@
-// overload -> quando um type alias, tem mais de 1 tipo de função inferida.
-// quando uma função se comporta diferente, conforme a quantidade de parâmetros
+// overload -> quando uma função se comporta diferente,
+// conforme a quantidade de parâmetros
 type Adder = {
   (x: number): number;
   (x: number, y: number): number;
