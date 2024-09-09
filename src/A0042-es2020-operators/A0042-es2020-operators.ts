@@ -18,7 +18,7 @@ type Documento = {
 const documento: Documento = {
   titulo: 'O titulo',
   texto: 'O texto',
-  // data: new Date(),
+  data: new Date(),
 };
 
 console.log(documento.data?.toDateString() ?? 'ixi não existe data.');
