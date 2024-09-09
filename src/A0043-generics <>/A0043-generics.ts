@@ -25,6 +25,7 @@ export function myFilter<T>(
 
 const arrayNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const arrayString = ['Hello', 'World'];
+console.log(arrayString);
 
 const arrayFiltradoOriginal = arrayNumbers.filter((value) => value < 5);
 console.log(arrayFiltradoOriginal);
