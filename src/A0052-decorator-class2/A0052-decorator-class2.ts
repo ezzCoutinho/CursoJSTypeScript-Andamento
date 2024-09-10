@@ -1,16 +1,8 @@
-// Decoradores -> se passam por objetos, mas no final são decoradores
-// que podem decorar(alterar) classes. @ em cima da class deixa o
-// decarador responsável por ela.
+function inverteNomeECor<T extends new (...args: any[]) => any>(
+  target: T,
+): T {
+  console.log('Sou o decorador e recebi', target);
 
-@decorator
-export class Animal {
-  constructor(
-    public nome: string,
-    public cor: string,
-  ) {}
-}
-
-function decorator<T extends new (...args: any[]) => any>(target: T): T {
   return class extends target {
     nome: string;
     cor: string;
@@ -25,6 +17,16 @@ function decorator<T extends new (...args: any[]) => any>(target: T): T {
       return valor.split('').reverse().join();
     }
   };
+}
+
+@inverteNomeECor
+export class Animal {
+  constructor(
+    public nome: string,
+    public cor: string,
+  ) {
+    console.log('sou a clase');
+  }
 }
 
 const animal = new Animal('', 'Purple');
