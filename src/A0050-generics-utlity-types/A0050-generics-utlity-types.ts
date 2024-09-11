@@ -5,7 +5,7 @@
 // Readonly -> não se altera as chaves do objeto
 // Pick -> escolhe apenas as chaves.
 // Exclude -> exclui todos os tipos de ABC que estão em CDE
-// Extract -> pega apenas os tipos que estão em ACB e CDE.
+// Extract -> pega apenas os tipos que estão em ABC e CDE.
 const objeto1: Record<string, string | number> = {
   nome: 'Luiz',
   sobrenome: 'Otávio',

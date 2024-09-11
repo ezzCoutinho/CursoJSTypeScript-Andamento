@@ -1,5 +1,5 @@
 // Decoradores -> se passam por objetos, mas no final são decoradores
-// que podem decorar(alterar) classes. @ em cima da class deixa o
+// que podem decorar("alterar") classes. @ (hosting) em cima da class deixa o
 // decarador responsável por ela.
 
 @decorator

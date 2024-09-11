@@ -1,3 +1,6 @@
+// decorador -> inicia antes da decoração na função, é iniciado o hosting,
+// depois o constructor {}.
+
 function inverteNomeECor<T extends new (...args: any[]) => any>(
   target: T,
 ): T {
