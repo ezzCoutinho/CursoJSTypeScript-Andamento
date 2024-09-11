@@ -1,0 +1,3 @@
+comando para compilar o namespace sem alterar o module do tsconfig
+
+npx tsc src/A0060-namespaces/index.ts --outfile src/A0060-namespaces/index.js
